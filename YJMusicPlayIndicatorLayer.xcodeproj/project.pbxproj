@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53145B01C50AAB80011F0EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C53145AF1C50AAB80011F0EE /* main.m */; };
+		C53145B31C50AAB80011F0EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C53145B21C50AAB80011F0EE /* AppDelegate.m */; };
+		C53145B91C50AAB80011F0EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53145B71C50AAB80011F0EE /* Main.storyboard */; };
+		C53145BB1C50AAB80011F0EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53145BA1C50AAB80011F0EE /* Assets.xcassets */; };
+		C53145BE1C50AAB80011F0EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53145BC1C50AAB80011F0EE /* LaunchScreen.storyboard */; };
+		C53145C91C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C53145C81C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests.m */; };
+		C53145D41C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C53145D31C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests.m */; };
+		C53145E31C50AACF0011F0EE /* YJMusicPlayIndicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C53145E21C50AACF0011F0EE /* YJMusicPlayIndicatorLayer.m */; };
+		C53145E61C50AAF30011F0EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53145E51C50AAF30011F0EE /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C53145C51C50AAB80011F0EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C53145A31C50AAB80011F0EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53145AA1C50AAB80011F0EE;
+			remoteInfo = YJMusicPlayIndicatorLayer;
+		};
+		C53145D01C50AAB80011F0EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C53145A31C50AAB80011F0EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53145AA1C50AAB80011F0EE;
+			remoteInfo = YJMusicPlayIndicatorLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C53145AB1C50AAB80011F0EE /* YJMusicPlayIndicatorLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJMusicPlayIndicatorLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53145AF1C50AAB80011F0EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C53145B11C50AAB80011F0EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C53145B21C50AAB80011F0EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C53145B81C50AAB80011F0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C53145BA1C50AAB80011F0EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C53145BD1C50AAB80011F0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C53145BF1C50AAB80011F0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53145C41C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJMusicPlayIndicatorLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53145C81C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJMusicPlayIndicatorLayerTests.m; sourceTree = "<group>"; };
+		C53145CA1C50AAB80011F0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53145CF1C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJMusicPlayIndicatorLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53145D31C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJMusicPlayIndicatorLayerUITests.m; sourceTree = "<group>"; };
+		C53145D51C50AAB80011F0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53145E11C50AACF0011F0EE /* YJMusicPlayIndicatorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJMusicPlayIndicatorLayer.h; sourceTree = "<group>"; };
+		C53145E21C50AACF0011F0EE /* YJMusicPlayIndicatorLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJMusicPlayIndicatorLayer.m; sourceTree = "<group>"; };
+		C53145E41C50AAF30011F0EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C53145E51C50AAF30011F0EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53145A81C50AAB80011F0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53145C11C50AAB80011F0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53145CC1C50AAB80011F0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C53145A21C50AAB80011F0EE = {
+			isa = PBXGroup;
+			children = (
+				C53145AD1C50AAB80011F0EE /* YJMusicPlayIndicatorLayer */,
+				C53145C71C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests */,
+				C53145D21C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests */,
+				C53145AC1C50AAB80011F0EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C53145AC1C50AAB80011F0EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53145AB1C50AAB80011F0EE /* YJMusicPlayIndicatorLayer.app */,
+				C53145C41C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests.xctest */,
+				C53145CF1C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C53145AD1C50AAB80011F0EE /* YJMusicPlayIndicatorLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C53145E11C50AACF0011F0EE /* YJMusicPlayIndicatorLayer.h */,
+				C53145E21C50AACF0011F0EE /* YJMusicPlayIndicatorLayer.m */,
+				C53145B11C50AAB80011F0EE /* AppDelegate.h */,
+				C53145B21C50AAB80011F0EE /* AppDelegate.m */,
+				C53145E41C50AAF30011F0EE /* ViewController.h */,
+				C53145E51C50AAF30011F0EE /* ViewController.m */,
+				C53145B71C50AAB80011F0EE /* Main.storyboard */,
+				C53145BA1C50AAB80011F0EE /* Assets.xcassets */,
+				C53145BC1C50AAB80011F0EE /* LaunchScreen.storyboard */,
+				C53145BF1C50AAB80011F0EE /* Info.plist */,
+				C53145AE1C50AAB80011F0EE /* Supporting Files */,
+			);
+			path = YJMusicPlayIndicatorLayer;
+			sourceTree = "<group>";
+		};
+		C53145AE1C50AAB80011F0EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C53145AF1C50AAB80011F0EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C53145C71C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C53145C81C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests.m */,
+				C53145CA1C50AAB80011F0EE /* Info.plist */,
+			);
+			path = YJMusicPlayIndicatorLayerTests;
+			sourceTree = "<group>";
+		};
+		C53145D21C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C53145D31C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests.m */,
+				C53145D51C50AAB80011F0EE /* Info.plist */,
+			);
+			path = YJMusicPlayIndicatorLayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53145AA1C50AAB80011F0EE /* YJMusicPlayIndicatorLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53145D81C50AAB80011F0EE /* Build configuration list for PBXNativeTarget "YJMusicPlayIndicatorLayer" */;
+			buildPhases = (
+				C53145A71C50AAB80011F0EE /* Sources */,
+				C53145A81C50AAB80011F0EE /* Frameworks */,
+				C53145A91C50AAB80011F0EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJMusicPlayIndicatorLayer;
+			productName = YJMusicPlayIndicatorLayer;
+			productReference = C53145AB1C50AAB80011F0EE /* YJMusicPlayIndicatorLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C53145C31C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53145DB1C50AAB80011F0EE /* Build configuration list for PBXNativeTarget "YJMusicPlayIndicatorLayerTests" */;
+			buildPhases = (
+				C53145C01C50AAB80011F0EE /* Sources */,
+				C53145C11C50AAB80011F0EE /* Frameworks */,
+				C53145C21C50AAB80011F0EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C53145C61C50AAB80011F0EE /* PBXTargetDependency */,
+			);
+			name = YJMusicPlayIndicatorLayerTests;
+			productName = YJMusicPlayIndicatorLayerTests;
+			productReference = C53145C41C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C53145CE1C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53145DE1C50AAB80011F0EE /* Build configuration list for PBXNativeTarget "YJMusicPlayIndicatorLayerUITests" */;
+			buildPhases = (
+				C53145CB1C50AAB80011F0EE /* Sources */,
+				C53145CC1C50AAB80011F0EE /* Frameworks */,
+				C53145CD1C50AAB80011F0EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C53145D11C50AAB80011F0EE /* PBXTargetDependency */,
+			);
+			name = YJMusicPlayIndicatorLayerUITests;
+			productName = YJMusicPlayIndicatorLayerUITests;
+			productReference = C53145CF1C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53145A31C50AAB80011F0EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jet;
+				TargetAttributes = {
+					C53145AA1C50AAB80011F0EE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C53145C31C50AAB80011F0EE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C53145AA1C50AAB80011F0EE;
+					};
+					C53145CE1C50AAB80011F0EE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C53145AA1C50AAB80011F0EE;
+					};
+				};
+			};
+			buildConfigurationList = C53145A61C50AAB80011F0EE /* Build configuration list for PBXProject "YJMusicPlayIndicatorLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C53145A21C50AAB80011F0EE;
+			productRefGroup = C53145AC1C50AAB80011F0EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C53145AA1C50AAB80011F0EE /* YJMusicPlayIndicatorLayer */,
+				C53145C31C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests */,
+				C53145CE1C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53145A91C50AAB80011F0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53145BE1C50AAB80011F0EE /* LaunchScreen.storyboard in Resources */,
+				C53145BB1C50AAB80011F0EE /* Assets.xcassets in Resources */,
+				C53145B91C50AAB80011F0EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53145C21C50AAB80011F0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53145CD1C50AAB80011F0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53145A71C50AAB80011F0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53145B31C50AAB80011F0EE /* AppDelegate.m in Sources */,
+				C53145E31C50AACF0011F0EE /* YJMusicPlayIndicatorLayer.m in Sources */,
+				C53145E61C50AAF30011F0EE /* ViewController.m in Sources */,
+				C53145B01C50AAB80011F0EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53145C01C50AAB80011F0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53145C91C50AAB80011F0EE /* YJMusicPlayIndicatorLayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53145CB1C50AAB80011F0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53145D41C50AAB80011F0EE /* YJMusicPlayIndicatorLayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C53145C61C50AAB80011F0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53145AA1C50AAB80011F0EE /* YJMusicPlayIndicatorLayer */;
+			targetProxy = C53145C51C50AAB80011F0EE /* PBXContainerItemProxy */;
+		};
+		C53145D11C50AAB80011F0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53145AA1C50AAB80011F0EE /* YJMusicPlayIndicatorLayer */;
+			targetProxy = C53145D01C50AAB80011F0EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C53145B71C50AAB80011F0EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53145B81C50AAB80011F0EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C53145BC1C50AAB80011F0EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53145BD1C50AAB80011F0EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C53145D61C50AAB80011F0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C53145D71C50AAB80011F0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C53145D91C50AAB80011F0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YJMusicPlayIndicatorLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jet.YJMusicPlayIndicatorLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C53145DA1C50AAB80011F0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YJMusicPlayIndicatorLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jet.YJMusicPlayIndicatorLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C53145DC1C50AAB80011F0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YJMusicPlayIndicatorLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jet.YJMusicPlayIndicatorLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJMusicPlayIndicatorLayer.app/YJMusicPlayIndicatorLayer";
+			};
+			name = Debug;
+		};
+		C53145DD1C50AAB80011F0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YJMusicPlayIndicatorLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jet.YJMusicPlayIndicatorLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJMusicPlayIndicatorLayer.app/YJMusicPlayIndicatorLayer";
+			};
+			name = Release;
+		};
+		C53145DF1C50AAB80011F0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YJMusicPlayIndicatorLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jet.YJMusicPlayIndicatorLayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YJMusicPlayIndicatorLayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C53145E01C50AAB80011F0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YJMusicPlayIndicatorLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jet.YJMusicPlayIndicatorLayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YJMusicPlayIndicatorLayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53145A61C50AAB80011F0EE /* Build configuration list for PBXProject "YJMusicPlayIndicatorLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53145D61C50AAB80011F0EE /* Debug */,
+				C53145D71C50AAB80011F0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53145D81C50AAB80011F0EE /* Build configuration list for PBXNativeTarget "YJMusicPlayIndicatorLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53145D91C50AAB80011F0EE /* Debug */,
+				C53145DA1C50AAB80011F0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C53145DB1C50AAB80011F0EE /* Build configuration list for PBXNativeTarget "YJMusicPlayIndicatorLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53145DC1C50AAB80011F0EE /* Debug */,
+				C53145DD1C50AAB80011F0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C53145DE1C50AAB80011F0EE /* Build configuration list for PBXNativeTarget "YJMusicPlayIndicatorLayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53145DF1C50AAB80011F0EE /* Debug */,
+				C53145E01C50AAB80011F0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C53145A31C50AAB80011F0EE /* Project object */;
+}
