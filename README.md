@@ -1,4 +1,4 @@
 # YJMusicPlayIndicatorLayer
 
-![示例图片](https://github.com/FundiJet/YJMusicPlayIndicatorLayer/master/YJMusicPlaying.gif)
+![示例图片](https://github.com/FundiJet/YJMusicPlayIndicatorLayer/raw/master/YJMusicPlaying.gif)
 
